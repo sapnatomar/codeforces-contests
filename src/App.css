@@ -1,0 +1,42 @@
+.App {
+  align-items: center;
+  text-align: center;
+  margin: 2em;
+}
+
+.contest-type-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #1890ff;
+  text-align: center;
+}
+
+.button-container {
+  text-align: center;
+  margin-bottom: 1em;
+  position: sticky;
+}
+
+.ant-list-header {
+  font-weight: 600;
+  background-color: turquoise;
+}
+
+li.ant-pagination-options {
+  display: none;
+}
+
+.ant-list-item a,
+.ant-list-item button {
+  margin: 0 auto;
+}
+
+a:active,
+a:hover {
+  text-decoration: underline;
+}
+
+.ant-input-search {
+  width: 50%;
+}
