@@ -144,9 +144,7 @@ export default class Contests extends Component {
           pagination={
             contestItems > 20
               ? {
-                  onChange: (page) => {
-                    console.log(page);
-                  },
+                  defaultCurrent: 1,
                   size: "small",
                   pageSize: Math.min(contestItems, 15),
                   position: "bottom",
